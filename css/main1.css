@@ -1,0 +1,913 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x:hidden;
+}
+.nav{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+}
+.toogle{
+    display: none;
+}
+.responsive-nav{
+    width: 100%;
+    position: absolute;
+    z-index: 25626256;
+    background-color: #f4a825;
+    text-align: center;
+    transition: all 0.4s;
+    height: 0px;
+    overflow: hidden;
+    position: fixed;
+    margin-top: -35px;
+}
+.responsive-nav li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.responsive-nav li a{
+    text-decoration: none;
+    color: white;
+}
+.responsive-nav a:hover{
+    background-color: #9c9797;
+    color: #EE8E3D;
+    border-radius: 5px;
+    width: 50px;
+}
+.responsive-nav .button1{
+    Width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid rgb(99, 134, 177);
+    background-color: transparent;
+}
+.responsive-nav .button1:hover{
+    background-color:gray;
+    border:  1px solid rgb(99, 134, 177);
+    color:white;
+}
+.responsive-nav .button2{
+    Width: 110px;
+    height: 35px;
+    background-color: #EE8E3D;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    border: 1px solid transparent;
+}
+.responsive-nav .button2:hover{
+    background-color:transparent;
+    border:  1px solid rgb(99, 134, 177);
+    color:#ffffff;
+}
+.hideimg{
+    display: none;
+}
+.bars{
+    display: none;
+}
+.buttons{
+    margin-top: 26px;
+}
+.buttons .button1{
+    Width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid rgb(99, 134, 177);
+    background-color: transparent;
+}
+.buttons .button1:hover{
+    background-color:gray;
+    border:  1px solid rgb(99, 134, 177);
+    color:white;
+}
+.buttons .button2{
+    Width: 110px;
+    height: 35px;
+    background-color: #EE8E3D;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    border: 1px solid transparent;
+}
+.buttons .button2:hover{
+    background-color:transparent;
+    border:  1px solid rgb(99, 134, 177);
+    color:#EE8E3D;
+}
+.home ul{
+    display: flex;
+    margin-top:20px;
+}
+.home ul li{
+    list-style: none;
+}
+.special1{
+    color: #EE8E3D;
+}
+.special2{
+    color: #07BEF8;
+}
+.home ul li img{
+    margin-left: 30px;
+    width: 70px;
+    margin-top: -20px;
+}
+.home ul a{
+text-decoration: none;
+color: black;
+padding: 10px;
+font-size: 14px;
+font-weight: 400;
+}
+.home ul a:hover{
+  border-bottom: 2px solid #EE8E3D;
+  color: #EE8E3D;
+}
+.nav .nav-imge img{
+    width: 76px;
+    height: 76px;
+    border-radius: 10px;
+}
+.renamae{
+    margin-top: 50px;
+    margin-top: 150px;
+}
+.row{
+    justify-content: space-around;
+    
+}
+.row .large .imge{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.row .large .imge img{
+    border-radius: 26px;
+    width: 100%;
+}
+.reserch{
+    text-align: right;
+}
+.reserch p{
+    font-size: 12px;
+    color: rgb(147, 140, 140);
+}
+.reserch h6{
+    font-family: inherit;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(84, 84, 84);
+}
+.cation{
+    text-align: right;
+}
+.cation .card{
+    border: none;
+}
+.cation h5{
+    margin-bottom: 20px;
+}
+.cation .card h6{
+    font-size: 12px;
+    color: rgb(116, 114, 114);
+    text-align: right;
+}
+.cation .card i{
+    margin-left: 5px;
+    color: rgb(116, 114, 114);
+}
+.cation .card p{
+    font-size: 14px;
+}
+.footer{
+    width: 100%;
+    background-color: #3485B9;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer-follow{
+    margin: auto;
+
+}
+.footer-follow h5{
+    color: white;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.footer-follow .icons{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+.footer-follow .icons i{
+    padding: 5px;
+    color: yellow;
+    margin-bottom: 5px;
+}
+.footer-follow .input-button input{
+    padding: 1px 10px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+    border:1px solid transparent;
+}
+.footer-follow  .input-button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.footer-follow  .input-button button{
+    padding: 10px 20px;
+    border:1px solid transparent;
+    background-color: #F4A825;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.footer-contact{
+    margin: auto;
+}
+.footer-contact .icons-contact{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.footer-contact .icons-contact i{
+ color: yellow;
+ padding: 5px;
+}
+.footer-contact .icons-contact h5{
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.footer-contact .h5{
+    text-align: right;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-home{
+    margin: auto;
+    text-align: right;
+}
+.footer-home a{
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.footer-adderss{
+    margin: auto;
+}
+.footer-adderss .icons-home{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.footer-adderss .icons-home h5{
+    font-size: 14px;
+    color: white;
+}
+.footer-adderss img{
+   margin-left: 250px;
+   margin-bottom: 20px;
+}
+.footer-adderss .icons-home i{
+    color: yellow;
+    padding: 0px 8px;
+}
+.Created{
+    background-color: #EE8E3D;
+    height: 20px;
+}
+h6{
+    text-align: center;
+}
+h6 a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+}
+h6 a:hover{
+    color: #00D586;
+}
+.show{
+    width: 600px;
+    height: 370px;
+    padding-top: 10px;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    border: 1px solid white;
+    box-shadow: 0px 2px 50px rgb(64, 64, 64) ;
+    border-radius: 20px;
+    opacity: 0;
+    z-index: -10;
+}
+.show .login{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.show .login .imge-tasgel{
+    height: 200px;
+    margin-left: 25PX;
+}
+.show .login .imge-tasgel img{
+    width: 85%;
+    height: 300px;
+}
+.show .input-tasgel {
+    text-align: right;
+    width: 60%;
+}
+.show .input-tasgel select{
+    display: block;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #9c9797;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    direction: rtl;
+    padding-right: 5px;
+
+
+}
+.show .input-tasgel input{
+    display: block;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #9c9797;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    text-align: right;
+      padding-right: 5px;
+}
+.show .input-tasgel h3{
+    margin-bottom: 25px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.show .input-tasgel .back{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.show .input-tasgel .i-tas{
+    background-color: #9c9797;
+    width: 25px;
+    height: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.show .input-tasgel .button5{
+    cursor: pointer;
+    padding: 8px 30px;
+    border: 1px solid transparent;
+    background-color: #F4A825;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+
+
+
+
+.show3{
+    width: 600px;
+    height: 370px;
+    padding-top: 10px;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 30%;
+    border: 1px solid white;
+    box-shadow: 0px 2px 50px rgb(64, 64, 64) ;
+    border-radius: 20px;
+    opacity: 0;
+    z-index: 54165;
+}
+.show3 .login3{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.show3 .login3 .imge-tasgel3{
+    height: 200px;
+    margin-left: 25PX;
+}
+.show3 .login3 .imge-tasgel3 img{
+    width: 85%;
+    height: 300px;
+}
+.show3 .input-tasgel3 {
+    text-align: right;
+    width: 60%;
+}
+
+.show3 .input-tasgel3 input{
+    display: block;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #d3cece;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    text-align: right;
+      padding-right: 5px;
+}
+.show3 .input-tasgel3 h3{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.show3 .input-tasgel3 p{
+    margin-right: 20px;
+    font-size: 14px;
+    color: #9c9797;
+}
+.show3 .input-tasgel3 .back3{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.show3 .input-tasgel3 .i-tas3{
+    background-color: #9c9797;
+    width: 25px;
+    height: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.show3 .input-tasgel3 .button53{
+    cursor: pointer;
+    padding: 8px 30px;
+    border: 1px solid transparent;
+    background-color: #F4A825;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+
+
+
+
+.top{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    z-index: 564165419865410;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+@media(max-width:600px){
+    .nav{
+        box-shadow: 0px 0px 40px rgb(157, 157, 157);
+        padding-top: 10px;
+        position: static;
+        position: fixed;
+        background-color: white;
+        z-index: 4546541541;
+    }
+    .hideimg{
+        display: block;
+        text-align: right;
+        margin-left: 25px;
+    }
+
+    .hidden{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .toogle{
+        display: block;
+       margin-right: 25px;
+       margin-top: 20px;
+       font-size: 22px;
+    }
+    .bars{
+        display: none;
+        width: 100%;
+       height: 200px;
+       background-color: #00D586;
+    }
+    .buttons{
+       display: none;
+       
+    }
+    .home {
+        display: none;
+    }
+    .renamae{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .row .large{
+        margin-bottom: 20px;
+    }
+    .row .large .imge{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .row .large .imge img{
+        border-radius: 26px;
+        width: 100%;
+    }
+    .reserch{
+        text-align: center;
+    }
+    .reserch p{
+        font-size: 12px;
+        color: rgb(147, 140, 140);
+        margin-bottom: 20px;
+    }
+    .reserch h6{
+        font-family: inherit;
+        line-height: 1.5;
+        text-align: right;
+        color: rgb(84, 84, 84);
+    }
+    .cation{
+        text-align: center;
+    }
+    .cation .card{
+        border: none;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        margin-bottom: 10px;
+       border-left: 0;
+       border-right: 0;
+       padding-top: 5px;
+       border-top: 0;
+    }
+    .cation h5{
+        margin-bottom: 20px;
+    }
+    .cation .card h6{
+        font-size: 12px;
+        color: rgb(116, 114, 114);
+        text-align: right;
+    }
+    .cation .card i{
+        margin-left: 5px;
+        color: rgb(116, 114, 114);
+    }
+    .cation .card p{
+        font-size: 14px;
+    }
+    .footer{
+        width: 100%;
+        margin-top: 50px;
+        padding-right: 10px;
+        padding-top: 10px;
+        background-color: #3485B9;
+        display: block;
+        justify-content: space-around;
+    }
+    .footer-follow{
+        margin: auto;
+    
+    }
+    .footer-follow h5{
+        color: white;
+        font-size: 14px;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .footer-follow .icons{
+        display: flex;
+        text-align: right;
+        justify-content: right;
+    }
+    .footer-follow .icons i{
+        padding: 5px;
+        color: yellow;
+        margin-bottom: 5px;
+    }
+    .footer-follow .input-button input{
+        padding: 1px 10px;
+        border-radius: 0px 5px 5px 0px;
+        background-color: white;
+        border:1px solid transparent;
+    }
+    .footer-follow  .input-button{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .footer-follow  .input-button button{
+        padding: 10px 20px;
+        border:1px solid transparent;
+        background-color: #F4A825;
+        border-radius: 10px 0px 0px 10px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .footer-contact{
+        margin: auto;
+    
+    }
+    .footer-contact .icons-contact{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .footer-contact .icons-contact i{
+     color: yellow;
+     padding: 5px;
+    }
+    .footer-contact .icons-contact h5{
+        color: white;
+        font-size: 14px;
+        padding: 5px;
+    }
+    .footer-contact .h5{
+        text-align: right;
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .footer-home{
+        margin: auto;
+        text-align: right;
+    }
+    .footer-home a{
+        display: block;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .footer-adderss{
+        margin: auto;
+    }
+    .footer-adderss .icons-home{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .footer-adderss .icons-home h5{
+        font-size: 14px;
+        color: white;
+    }
+    .footer-adderss img{
+       margin-left: 160px;
+       margin-bottom: 20px;
+    }
+    .footer-adderss .icons-home i{
+        color: yellow;
+        padding: 0px 8px;
+    }
+    .Created{
+        background-color: #EE8E3D;
+        height: 20px;
+    }
+    h6{
+        text-align: center;
+    }
+    h6 a{
+        text-decoration: none;
+        color: white;
+        margin: 0px 5px;
+    }
+    h6 a:hover{
+        color: #00D586;
+    }
+    
+    
+    .show{
+        width: 100%;
+        height: 370px;
+        padding-top: 10px;
+        margin: auto;
+        background-color: white;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        border: 1px solid white;
+        box-shadow: 0px 2px 50px rgb(64, 64, 64) ;
+        border-radius: 20px;
+        opacity: 0;
+        z-index: 10;
+    }
+    .show .login{
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .show .login .imge-tasgel{
+        height: 200px;
+        margin-left: 25PX;
+    }
+    .show .login .imge-tasgel img{
+        width: 85%;
+        height: 300px;
+    }
+    .show .input-tasgel {
+        text-align: right;
+        width: 60%;
+    }
+    .show .input-tasgel select{
+        display: block;
+        width: 100%;
+        height: 35px;
+        font-size: 12px;
+        border-radius: 5px;
+        background-color: #9c9797;
+        margin-bottom: 10px;
+        border: 1px solid transparent;
+        direction: rtl;
+        padding-right: 5px;
+    }
+    .show .input-tasgel input{
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 12px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #9c9797;
+        margin-bottom: 10px;
+        border: 1px solid transparent;
+        text-align: right;
+        padding-right: 5px;
+    }
+    .show .input-tasgel h3{
+        margin-bottom: 25px;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    .show .input-tasgel .back{
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .show .input-tasgel .i-tas{
+        background-color: #9c9797;
+        width: 25px;
+        height: 20px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .show .input-tasgel .button5{
+        cursor: pointer;
+        padding: 8px 30px;
+        border: 1px solid transparent;
+        background-color: #F4A825;
+        border-radius: 8px;
+        font-size: 14px;
+        margin-right: 30px;
+    }
+
+    .show3{
+        width: 100%;
+        height: 390px;
+        padding-top: 0px;
+        left: 0;
+        opacity: 0;
+        z-index: 498464;
+    }
+    .show3 .login3{
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .show3 .login3 .imge-tasgel3{
+        height: 200px;
+        margin-left: 25PX;
+    }
+    .show3 .login3 .imge-tasgel3 img{
+        width: 85%;
+        height: 300px;
+    }
+    .show3 .input-tasgel3 {
+        text-align: right;
+        width: 60%;
+    }
+    
+    .show3 .input-tasgel3 input{
+        display: block;
+        margin-bottom: 10px;
+        width: 90%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #d3cece;
+        margin-bottom: 10px;
+        border: 1px solid transparent;
+        text-align: right;
+          padding-right: 5px;
+    }
+    .show3 .input-tasgel3 h3{
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    .show3 .input-tasgel3 p{
+        margin-right: 20px;
+        font-size: 14px;
+        color: #9c9797;
+    }
+    .show3 .input-tasgel3 .back3{
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .show3 .input-tasgel3 .i-tas3{
+        background-color: #9c9797;
+        width: 25px;
+        height: 20px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .show3 .input-tasgel3 .button53{
+        cursor: pointer;
+        padding: 8px 30px;
+        border: 1px solid transparent;
+        background-color: #F4A825;
+        border-radius: 8px;
+        font-size: 14px;
+        margin-right: 30px;
+    }
+    .top{
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        position: fixed;
+        z-index: 564165419865410;
+        opacity: 0;
+        cursor: pointer;
+    }
+}
